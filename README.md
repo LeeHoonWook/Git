@@ -95,3 +95,21 @@
 ```sh
  User $ git clone github주소 폴더명
 ```
+
+## 8. 초기화
+
+```sh
+ # 기존 히스토리 삭제
+ User $ rm -rf .git
+ 
+ # 새로운 git 생성
+ User $ git init
+ 
+ # 현재 파일 커밋
+ User $ git add .
+ User $ git commit -m '히스토리 만들기'
+ 
+ # 강제로 push
+ User $ git push -f origin master
+ 
+```
