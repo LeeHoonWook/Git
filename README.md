@@ -50,7 +50,7 @@
 ## 5. 코드 업로드
 ```sh
  # Github repository랑 내 로컬 프로젝트랑 연결
- User $ git remote add origin github주소(ex : https://github.com/LeeHunUk/Git.git)
+ User $ git remote add origin github주소(ex : https://github.com/LeeHoonWook/Git.git)
  
  # 연결이 잘 되었는지 확인
  User $ git remote -v
@@ -84,7 +84,7 @@
  User $ git reset --hard 커밋아이디값
  
  # 브랜치 업로드(origin 별칭은 변경이 가능하나 통상적으로 origin을 사용)
- User $ git remote add origin github주소(ex : https://github.com/LeeHunUk/Git.git)
+ User $ git remote add origin github주소(ex : https://github.com/LeeHoonWook/Git.git)
  
  User $ git push origin 브랜치명 
  or
@@ -108,6 +108,9 @@
  # 현재 파일 커밋
  User $ git add .
  User $ git commit -m '히스토리 만들기'
+ 
+ # Github repository랑 내 로컬 프로젝트랑 연결
+ User $ git remote add origin github주소(ex : https://github.com/LeeHoonWook/Git.git)
  
  # 강제로 push
  User $ git push -f origin master
